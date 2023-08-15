@@ -47,7 +47,7 @@ def generate_llama2_response(prompt_input):
                                  "prompt": f"{dialogue_history} {prompt_input} Assistant: ",
                                  "temperature": 0.5,  # Adjust the temperature value
                                  "top_p": 0.9,
-                                 "max_length": 512,
+                                 "max_length": 1024,
                                  "repetition_penalty": 1
                              })
     
